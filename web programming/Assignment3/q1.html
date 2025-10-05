@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table Attributes Example</title>
+</head>
+<body>
+
+<h2>HTML Table with Attributes</h2>
+
+<table border="2" cellspacing="5" cellpadding="10">
+    <tr>
+        <th>Row #</th>
+        <th colspan="2">Product Info (colspan=2)</th>
+        <th>Stock</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td rowspan="2">Gadget A (rowspan=2)</td>
+        <td>Color: Red</td>
+        <td>In Stock</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <!-- Rowspan cell continues here -->
+        <td>Color: Blue</td>
+        <td>Out of Stock</td>
+    </tr>
+
+    <tr>
+        <th colspan="4">Summary (colspan=4)</th>
+    </tr>
+
+    <tr>
+        <td colspan="3">Total Products</td>
+        <td>2</td>
+    </tr>
+</table>
+
+</body>
+</html>
