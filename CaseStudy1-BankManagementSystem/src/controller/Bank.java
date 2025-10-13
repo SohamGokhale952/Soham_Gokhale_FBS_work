@@ -9,7 +9,6 @@ import model.*;
 public class Bank {
 	
     static ArrayList<Account> accounts = new ArrayList<>();
-    static ArrayList<Transaction> transactions = new ArrayList<>();
     static {
         // ------------------------------
         // Hardcoded Accounts for Testing
@@ -442,3 +441,4 @@ public class Bank {
 
 
 }
+
